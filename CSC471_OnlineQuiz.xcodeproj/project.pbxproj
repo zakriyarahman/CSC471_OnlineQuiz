@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31263C411C8BA8AF00D0B480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31263C401C8BA8AF00D0B480 /* AppDelegate.swift */; };
+		31263C431C8BA8AF00D0B480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31263C421C8BA8AF00D0B480 /* ViewController.swift */; };
+		31263C461C8BA8AF00D0B480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31263C441C8BA8AF00D0B480 /* Main.storyboard */; };
+		31263C491C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31263C471C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodeld */; };
+		31263C4B1C8BA8AF00D0B480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31263C4A1C8BA8AF00D0B480 /* Assets.xcassets */; };
+		31263C4E1C8BA8AF00D0B480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31263C4C1C8BA8AF00D0B480 /* LaunchScreen.storyboard */; };
+		31263C591C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31263C581C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.swift */; };
+		31263C641C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31263C631C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31263C551C8BA8AF00D0B480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31263C351C8BA8AF00D0B480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31263C3C1C8BA8AF00D0B480;
+			remoteInfo = CSC471_OnlineQuiz;
+		};
+		31263C601C8BA8AF00D0B480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31263C351C8BA8AF00D0B480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31263C3C1C8BA8AF00D0B480;
+			remoteInfo = CSC471_OnlineQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31263C3D1C8BA8AF00D0B480 /* CSC471_OnlineQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSC471_OnlineQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31263C401C8BA8AF00D0B480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31263C421C8BA8AF00D0B480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31263C451C8BA8AF00D0B480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31263C481C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CSC471_OnlineQuiz.xcdatamodel; sourceTree = "<group>"; };
+		31263C4A1C8BA8AF00D0B480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31263C4D1C8BA8AF00D0B480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31263C4F1C8BA8AF00D0B480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31263C541C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSC471_OnlineQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31263C581C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC471_OnlineQuizTests.swift; sourceTree = "<group>"; };
+		31263C5A1C8BA8AF00D0B480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31263C5F1C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSC471_OnlineQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31263C631C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC471_OnlineQuizUITests.swift; sourceTree = "<group>"; };
+		31263C651C8BA8AF00D0B480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31263C3A1C8BA8AF00D0B480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31263C511C8BA8AF00D0B480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31263C5C1C8BA8AF00D0B480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31263C341C8BA8AF00D0B480 = {
+			isa = PBXGroup;
+			children = (
+				31263C3F1C8BA8AF00D0B480 /* CSC471_OnlineQuiz */,
+				31263C571C8BA8AF00D0B480 /* CSC471_OnlineQuizTests */,
+				31263C621C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests */,
+				31263C3E1C8BA8AF00D0B480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31263C3E1C8BA8AF00D0B480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31263C3D1C8BA8AF00D0B480 /* CSC471_OnlineQuiz.app */,
+				31263C541C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.xctest */,
+				31263C5F1C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31263C3F1C8BA8AF00D0B480 /* CSC471_OnlineQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				31263C401C8BA8AF00D0B480 /* AppDelegate.swift */,
+				31263C421C8BA8AF00D0B480 /* ViewController.swift */,
+				31263C441C8BA8AF00D0B480 /* Main.storyboard */,
+				31263C4A1C8BA8AF00D0B480 /* Assets.xcassets */,
+				31263C4C1C8BA8AF00D0B480 /* LaunchScreen.storyboard */,
+				31263C4F1C8BA8AF00D0B480 /* Info.plist */,
+				31263C471C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodeld */,
+			);
+			path = CSC471_OnlineQuiz;
+			sourceTree = "<group>";
+		};
+		31263C571C8BA8AF00D0B480 /* CSC471_OnlineQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				31263C581C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.swift */,
+				31263C5A1C8BA8AF00D0B480 /* Info.plist */,
+			);
+			path = CSC471_OnlineQuizTests;
+			sourceTree = "<group>";
+		};
+		31263C621C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31263C631C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.swift */,
+				31263C651C8BA8AF00D0B480 /* Info.plist */,
+			);
+			path = CSC471_OnlineQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31263C3C1C8BA8AF00D0B480 /* CSC471_OnlineQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31263C681C8BA8AF00D0B480 /* Build configuration list for PBXNativeTarget "CSC471_OnlineQuiz" */;
+			buildPhases = (
+				31263C391C8BA8AF00D0B480 /* Sources */,
+				31263C3A1C8BA8AF00D0B480 /* Frameworks */,
+				31263C3B1C8BA8AF00D0B480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSC471_OnlineQuiz;
+			productName = CSC471_OnlineQuiz;
+			productReference = 31263C3D1C8BA8AF00D0B480 /* CSC471_OnlineQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31263C531C8BA8AF00D0B480 /* CSC471_OnlineQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31263C6B1C8BA8AF00D0B480 /* Build configuration list for PBXNativeTarget "CSC471_OnlineQuizTests" */;
+			buildPhases = (
+				31263C501C8BA8AF00D0B480 /* Sources */,
+				31263C511C8BA8AF00D0B480 /* Frameworks */,
+				31263C521C8BA8AF00D0B480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31263C561C8BA8AF00D0B480 /* PBXTargetDependency */,
+			);
+			name = CSC471_OnlineQuizTests;
+			productName = CSC471_OnlineQuizTests;
+			productReference = 31263C541C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31263C5E1C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31263C6E1C8BA8AF00D0B480 /* Build configuration list for PBXNativeTarget "CSC471_OnlineQuizUITests" */;
+			buildPhases = (
+				31263C5B1C8BA8AF00D0B480 /* Sources */,
+				31263C5C1C8BA8AF00D0B480 /* Frameworks */,
+				31263C5D1C8BA8AF00D0B480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31263C611C8BA8AF00D0B480 /* PBXTargetDependency */,
+			);
+			name = CSC471_OnlineQuizUITests;
+			productName = CSC471_OnlineQuizUITests;
+			productReference = 31263C5F1C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31263C351C8BA8AF00D0B480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = csc471.depaul.edu;
+				TargetAttributes = {
+					31263C3C1C8BA8AF00D0B480 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					31263C531C8BA8AF00D0B480 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 31263C3C1C8BA8AF00D0B480;
+					};
+					31263C5E1C8BA8AF00D0B480 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 31263C3C1C8BA8AF00D0B480;
+					};
+				};
+			};
+			buildConfigurationList = 31263C381C8BA8AF00D0B480 /* Build configuration list for PBXProject "CSC471_OnlineQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31263C341C8BA8AF00D0B480;
+			productRefGroup = 31263C3E1C8BA8AF00D0B480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31263C3C1C8BA8AF00D0B480 /* CSC471_OnlineQuiz */,
+				31263C531C8BA8AF00D0B480 /* CSC471_OnlineQuizTests */,
+				31263C5E1C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31263C3B1C8BA8AF00D0B480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31263C4E1C8BA8AF00D0B480 /* LaunchScreen.storyboard in Resources */,
+				31263C4B1C8BA8AF00D0B480 /* Assets.xcassets in Resources */,
+				31263C461C8BA8AF00D0B480 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31263C521C8BA8AF00D0B480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31263C5D1C8BA8AF00D0B480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31263C391C8BA8AF00D0B480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31263C491C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodeld in Sources */,
+				31263C431C8BA8AF00D0B480 /* ViewController.swift in Sources */,
+				31263C411C8BA8AF00D0B480 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31263C501C8BA8AF00D0B480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31263C591C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31263C5B1C8BA8AF00D0B480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31263C641C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31263C561C8BA8AF00D0B480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31263C3C1C8BA8AF00D0B480 /* CSC471_OnlineQuiz */;
+			targetProxy = 31263C551C8BA8AF00D0B480 /* PBXContainerItemProxy */;
+		};
+		31263C611C8BA8AF00D0B480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31263C3C1C8BA8AF00D0B480 /* CSC471_OnlineQuiz */;
+			targetProxy = 31263C601C8BA8AF00D0B480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31263C441C8BA8AF00D0B480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31263C451C8BA8AF00D0B480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31263C4C1C8BA8AF00D0B480 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31263C4D1C8BA8AF00D0B480 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31263C661C8BA8AF00D0B480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31263C671C8BA8AF00D0B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31263C691C8BA8AF00D0B480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CSC471_OnlineQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.CSC471-OnlineQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31263C6A1C8BA8AF00D0B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CSC471_OnlineQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.CSC471-OnlineQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31263C6C1C8BA8AF00D0B480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CSC471_OnlineQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.CSC471-OnlineQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSC471_OnlineQuiz.app/CSC471_OnlineQuiz";
+			};
+			name = Debug;
+		};
+		31263C6D1C8BA8AF00D0B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CSC471_OnlineQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.CSC471-OnlineQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSC471_OnlineQuiz.app/CSC471_OnlineQuiz";
+			};
+			name = Release;
+		};
+		31263C6F1C8BA8AF00D0B480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CSC471_OnlineQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.CSC471-OnlineQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CSC471_OnlineQuiz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		31263C701C8BA8AF00D0B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CSC471_OnlineQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.CSC471-OnlineQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CSC471_OnlineQuiz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31263C381C8BA8AF00D0B480 /* Build configuration list for PBXProject "CSC471_OnlineQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31263C661C8BA8AF00D0B480 /* Debug */,
+				31263C671C8BA8AF00D0B480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31263C681C8BA8AF00D0B480 /* Build configuration list for PBXNativeTarget "CSC471_OnlineQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31263C691C8BA8AF00D0B480 /* Debug */,
+				31263C6A1C8BA8AF00D0B480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31263C6B1C8BA8AF00D0B480 /* Build configuration list for PBXNativeTarget "CSC471_OnlineQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31263C6C1C8BA8AF00D0B480 /* Debug */,
+				31263C6D1C8BA8AF00D0B480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31263C6E1C8BA8AF00D0B480 /* Build configuration list for PBXNativeTarget "CSC471_OnlineQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31263C6F1C8BA8AF00D0B480 /* Debug */,
+				31263C701C8BA8AF00D0B480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31263C471C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31263C481C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodel */,
+			);
+			currentVersion = 31263C481C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodel */;
+			path = CSC471_OnlineQuiz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31263C351C8BA8AF00D0B480 /* Project object */;
+}
