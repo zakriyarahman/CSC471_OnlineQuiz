@@ -15,6 +15,9 @@
 		31263C4E1C8BA8AF00D0B480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31263C4C1C8BA8AF00D0B480 /* LaunchScreen.storyboard */; };
 		31263C591C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31263C581C8BA8AF00D0B480 /* CSC471_OnlineQuizTests.swift */; };
 		31263C641C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31263C631C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.swift */; };
+		9111B9F91C8BAC050022B60A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9111B9F51C8BAC050022B60A /* DetailViewController.swift */; };
+		9111B9FB1C8BAC050022B60A /* QuizListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9111B9F71C8BAC050022B60A /* QuizListViewController.swift */; };
+		9111B9FC1C8BAC050022B60A /* UserQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9111B9F81C8BAC050022B60A /* UserQuiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		31263C5F1C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSC471_OnlineQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31263C631C8BA8AF00D0B480 /* CSC471_OnlineQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC471_OnlineQuizUITests.swift; sourceTree = "<group>"; };
 		31263C651C8BA8AF00D0B480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9111B9F51C8BAC050022B60A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../../OnlineQuiz/OnlineQuiz/DetailViewController.swift; sourceTree = "<group>"; };
+		9111B9F71C8BAC050022B60A /* QuizListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizListViewController.swift; path = ../../OnlineQuiz/OnlineQuiz/QuizListViewController.swift; sourceTree = "<group>"; };
+		9111B9F81C8BAC050022B60A /* UserQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserQuiz.swift; path = ../../OnlineQuiz/OnlineQuiz/UserQuiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		31263C3F1C8BA8AF00D0B480 /* CSC471_OnlineQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				9111B9F51C8BAC050022B60A /* DetailViewController.swift */,
+				9111B9F71C8BAC050022B60A /* QuizListViewController.swift */,
+				9111B9F81C8BAC050022B60A /* UserQuiz.swift */,
 				31263C401C8BA8AF00D0B480 /* AppDelegate.swift */,
 				31263C421C8BA8AF00D0B480 /* ViewController.swift */,
 				31263C441C8BA8AF00D0B480 /* Main.storyboard */,
@@ -262,6 +271,9 @@
 				31263C491C8BA8AF00D0B480 /* CSC471_OnlineQuiz.xcdatamodeld in Sources */,
 				31263C431C8BA8AF00D0B480 /* ViewController.swift in Sources */,
 				31263C411C8BA8AF00D0B480 /* AppDelegate.swift in Sources */,
+				9111B9F91C8BAC050022B60A /* DetailViewController.swift in Sources */,
+				9111B9FB1C8BAC050022B60A /* QuizListViewController.swift in Sources */,
+				9111B9FC1C8BAC050022B60A /* UserQuiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +498,7 @@
 				31263C6A1C8BA8AF00D0B480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31263C6B1C8BA8AF00D0B480 /* Build configuration list for PBXNativeTarget "CSC471_OnlineQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +507,7 @@
 				31263C6D1C8BA8AF00D0B480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31263C6E1C8BA8AF00D0B480 /* Build configuration list for PBXNativeTarget "CSC471_OnlineQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +516,7 @@
 				31263C701C8BA8AF00D0B480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
